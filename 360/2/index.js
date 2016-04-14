@@ -145,6 +145,9 @@ function displayCalendar(firDateDay, lastMonLasDate, lasDate, month, year) {
 		}else{
 			dateInfo.innerHTML+='<p id="hao">'+(i-getFirDateDay(yearInpVal(),checkMonth())+2)+'</p>'
 		}
+		years.className='hideSpan';
+		months.className='hideSpan';
+		vacations.className='hideSpan';
 	}
 }
 

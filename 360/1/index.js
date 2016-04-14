@@ -215,6 +215,9 @@ function displayCalendar(firDateDay, lastMonLasDate, lasDate, month, year) {
 			dateInfo.innerHTML+='<p id="hao">'+(i-getFirDateDay(yearInpVal(),checkMonth())+2)+'</p>'
 		}
 		dateInfo.innerHTML +='<p id="animal">[' + animals[(yearInpVal() - 4) % 12] + '年]</p>'; //生肖
+		years.className='hideSpan';
+		months.className='hideSpan';
+		vacations.className='hideSpan';
 	}
 }
 
